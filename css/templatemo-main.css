@@ -21,9 +21,9 @@ body {
   font-size: 14px;
 }
 
-a { color: #3CC; }
+a { color: black; }
 
-a:hover { color: #FF0; }
+a:hover { color: #ff7d27; }
 
 /*----------
   NAV
@@ -231,7 +231,7 @@ a:hover { color: #FF0; }
   font-weight: 300;
   font-size: 48px;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 
