@@ -152,7 +152,7 @@ a:hover { color: #ff7d27; }
 
 .parallax-content {
   width: 100%;
-  min-height: 110vh;
+  min-height: 105vh;
   background-size: cover;
 }
 
@@ -168,6 +168,7 @@ a:hover { color: #ff7d27; }
   font-size: 110px;
   color: #fff;
   font-weight: 900;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -176,13 +177,16 @@ a:hover { color: #ff7d27; }
   color: #ff7d27;
   font-weight: 600;
   font-style: normal;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  font-size: 38px;
 }
 
 .baner-content span {
   display: inline-block;
   margin-top: -20px;
   font-weight: 300;
-  font-size: 48px;
+  font-size: 38px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
   color: #fff;
 }
 
@@ -200,6 +204,7 @@ a:hover { color: #ff7d27; }
   font-size: 50px;
   color: #fff;
   font-weight: 900;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -207,20 +212,22 @@ a:hover { color: #ff7d27; }
 .baner-content1 em {
   color: #ff7d27;
   font-weight: 600;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   font-style: normal;
 }
 
 .baner-content1 span {
   display: inline-block;
   margin-top: -20px;
-  font-weight: 300;
-  font-size: 48px;
+  font-weight: 900;
+  font-size: 38px;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   color: #fff;
   margin-bottom: 40px;
 }
 
 .baner-content2 {
-  margin-top: -100px;
+  margin-top: -75px;
   text-align: center;
 }
 
@@ -229,21 +236,24 @@ a:hover { color: #ff7d27; }
   font-size: 50px;
   color: #fff;
   font-weight: 900;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 
 .baner-content2 em {
   color: #ff7d27;
-  font-weight: 600;
+  font-weight: 900;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   font-style: normal;
 }
 
 .baner-content2 span {
   display: inline-block;
   margin-top: -20px;
-  font-weight: 300;
-  font-size: 48px;
+  font-weight: 900;
+  font-size: 38px;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
   color: #fff;
   margin-bottom: 20px;
 }
