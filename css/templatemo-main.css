@@ -612,60 +612,15 @@ footer em {
     margin-bottom: 30px;
   }
 
+  iframe {
+    height: 300px !important;
+  }
+
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
-  }
-}
-
-@media screen and (max-height: 500px) and (orientation: landscape) {
-  .baner-content {
-    padding-top: 30vh;
-  }
-
-  .baner-content h1 {
-    font-size: 42px;
-  }
-
-  .baner-content span,
-  .baner-content em {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-
-  .baner-content .primary-button a {
-    font-size: 10px;
-    padding: 10px 20px;
-  }
-
-  .baner-content1 span,
-  .baner-content2 span {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  iframe {
-    height: 250px !important;
-  }
-
-  .testimonials-item img {
-    max-height: 120px;
-    object-fit: cover;
-  }
-
-  .text-content h4 {
-    font-size: 14px;
-  }
-
-  .primary-button a {
-    padding: 10px 18px;
-    font-size: 10px;
-  }
-
-  footer p {
-    font-size: 10px;
   }
 }
 
