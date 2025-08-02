@@ -623,7 +623,7 @@ footer em {
 
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .baner-content {
-    padding-top: 15vh;
+    padding-top: 30vh;
   }
 
   .baner-content h1 {
@@ -633,6 +633,7 @@ footer em {
   .baner-content span,
   .baner-content em {
     font-size: 20px;
+    margin-top: 10px;
   }
 
   .baner-content .primary-button a {
@@ -643,7 +644,7 @@ footer em {
   .baner-content1 span,
   .baner-content2 span {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   iframe {
