@@ -124,21 +124,6 @@ a:hover { color: #ff7d27; }
 
 .primary-button a {
   display: inline-block;
-  margin-top: 250px;
-  background-color: #ff7d27;
-  padding: 15px 24px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-}
-
-.primary-button1 a {
-  display: inline-block;
-  margin-top: 50px;
   background-color: #ff7d27;
   padding: 15px 24px;
   border-radius: 3px;
@@ -159,14 +144,14 @@ a:hover { color: #ff7d27; }
 
 
 .baner-content {
-  padding-top: 20vh;
+  padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/HalamanAwal1.jpg);
+  background-image: url(../img/1st-section.jpg);
 }
 
 .baner-content h1 {
-  margin-top: -50px;
-  font-size: 110px;
+  margin-top: 0px;
+  font-size: 128px;
   color: #fff;
   font-weight: 900;
   text-transform: uppercase;
@@ -255,7 +240,7 @@ a:hover { color: #ff7d27; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 30vh;
-  background-image: url(../img/HalamanAwal2.jpg);
+  background-image: url(../img/2nd-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -372,7 +357,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/HalamanAwal2.jpg);
+  background-image: url(../img/4th-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -507,11 +492,11 @@ section {
 footer {
   text-align: center;
   background-color: #282b2f;
-  padding: 25px 0px;
+  padding: 40px 0px;
 }
 
-footer .primary-button1 {
-  margin-bottom: 40px;
+footer .primary-button {
+  margin-bottom: 30px;
 }
 
 footer ul {
