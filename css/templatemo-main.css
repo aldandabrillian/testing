@@ -657,7 +657,7 @@ footer em {
 
   .baner-content2 span {
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 100px;
   }
 
   .service-content {
@@ -720,7 +720,7 @@ footer em {
   }
 
   iframe {
-    height: 275px !important;
+    height: 250px !important;
   }
 }
 
