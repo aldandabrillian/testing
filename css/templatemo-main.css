@@ -183,7 +183,7 @@ a:hover { color: #ff7d27; }
 
 .baner-content span {
   display: inline-block;
-  margin-top: -20px;
+  margin-top: 0px;
   font-weight: 300;
   font-size: 38px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
@@ -875,7 +875,7 @@ footer em {
 
   .baner-content1 span,
   .baner-content2 span {
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 
