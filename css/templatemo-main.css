@@ -765,6 +765,121 @@ footer em {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .baner-content {
+    padding-top: 30vh;
+  }
+
+  .baner-content h1 {
+    font-size: 90px;
+  }
+
+  .baner-content span,
+  .baner-content em {
+    font-size: 36px;
+  }
+
+  .baner-content .primary-button a {
+    font-size: 12px;
+    padding: 16px 26px;
+  }
+
+  .baner-content1 h1,
+  .baner-content2 h1 {
+    font-size: 60px;
+  }
+
+  .baner-content1 span,
+  .baner-content2 span {
+    font-size: 40px;
+  }
+
+  .service-content {
+    padding-top: 30vh;
+    text-align: left;
+  }
+
+  .service-content .left-text h4 {
+    font-size: 28px;
+  }
+
+  .service-content .left-text p,
+  .service-content .left-text ul li {
+    font-size: 16px;
+  }
+
+  .service-content .service-item {
+    padding: 30px;
+  }
+
+  .projects-content .item .text-content h4 {
+    font-size: 20px;
+  }
+
+  .projects-content .item .text-content span {
+    font-size: 18px;
+  }
+
+  .tabs a {
+    font-size: 14px;
+    padding: 12px 18px;
+  }
+
+  .tabgroup p {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  .contact-form {
+    padding: 40px 30px;
+  }
+
+  #contact input,
+  #contact textarea {
+    font-size: 14px;
+  }
+
+  #contact button {
+    font-size: 12px;
+    padding: 16px 24px;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  .primary-button a {
+    font-size: 12px;
+    padding: 14px 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  .baner-content h1 {
+    font-size: 110px;
+  }
+
+  .baner-content em,
+  .baner-content span {
+    font-size: 38px;
+  }
+
+  .baner-content1 h1,
+  .baner-content2 h1 {
+    font-size: 70px;
+  }
+
+  .baner-content1 span,
+  .baner-content2 span {
+    font-size: 42px;
+  }
+}
+
+
 /* LIGHT BOX */
 
 body:after {
