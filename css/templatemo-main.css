@@ -568,59 +568,51 @@ footer em {
   font-style: normal;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px){
+  
   .baner-content {
-    padding-top: 25vh;
+    padding-top: 30vh;
   }
 
   .baner-content h1 {
-    font-size: 44px;
+    font-size: 64px;
   }
 
-  .baner-content span, .baner-content em {
-    font-size: 20px;
+  .baner-content em, 
+  .baner-content span {
+    font-size: 24px;
+    margin-top: 10px;
   }
 
-  .baner-content .primary-button a {
-    font-size: 10px;
-    padding: 10px 16px;
+  .baner-content .primary-button {
+    margin-top: 15px;
   }
 
   .service-content {
     padding-top: 5vh;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
   }
 
-  .projects-content .item .text-content {
-    padding: 10px;
+  .service-content .left-text .line-dec {
+    width: 45px;
+    height: 3px;
+    background-color: #ff7d27;
+    margin: 20px auto 20px auto;
   }
 
-  .tabs a {
-    font-size: 12px;
-    padding: 6px 10px;
+  .service-content .left-text ul {
+    text-align: left;
   }
 
-  .contact-content {
-    padding-top: 10vh;
+  .service-content .service-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
   }
 
-  footer ul li a {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
-    line-height: 30px;
-  }
-
-  footer p {
-    font-size: 11px;
-  }
-
-  .fixed-side-navbar {
-    display: none; /* jangan pakai di layar kecil */
-  }
 }
-
 
 @media (min-width: 1200px) {
   .container {
@@ -677,35 +669,101 @@ footer em {
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    width: 90%;
-    max-width: 1170px;
-    margin: 0 auto;
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .baner-content {
+    padding-top: 20vh;
   }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
   .baner-content h1 {
-    font-size: 54px;
+    font-size: 48px;
+    margin-top: -30px;
   }
 
-  .baner-content span, .baner-content em {
+  .baner-content span,
+  .baner-content em {
     font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .baner-content .primary-button a {
+    font-size: 10px;
+    padding: 10px 18px;
+  }
+
+  .baner-content1 h1,
+  .baner-content2 h1 {
+    font-size: 38px;
+  }
+
+  .baner-content1 span,
+  .baner-content2 span {
+    font-size: 22px;
+    margin-bottom: 10px;
   }
 
   .service-content {
-    padding-top: 10vh;
+    padding-top: 5vh;
+  }
+
+  .service-content .left-text h4 {
+    font-size: 18px;
+  }
+
+  .service-content .left-text p,
+  .service-content .left-text ul li {
+    font-size: 14px;
+  }
+
+  .service-content .service-item {
+    padding: 20px 20px;
+  }
+
+  .projects-content .item .text-content h4 {
+    font-size: 16px;
+  }
+
+  .projects-content .item .text-content span {
+    font-size: 14px;
+  }
+
+  .tabs a {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .tabgroup p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .contact-form {
+    padding: 25px 15px;
+  }
+
+  #contact input,
+  #contact textarea {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  #contact button {
+    font-size: 10px;
+    padding: 12px 18px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .primary-button a {
+    font-size: 10px;
+    padding: 10px 18px;
+  }
+
+  iframe {
+    height: 200px !important;
   }
 }
-
-@media screen and (max-height: 500px) and (orientation: landscape) {
-  .projects-content {
-    padding-top: 10vh;
-  }
-}
-
-
 
 /* LIGHT BOX */
 
