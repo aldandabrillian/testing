@@ -613,7 +613,7 @@ footer em {
   }
 
   iframe {
-    height: 500px !important;
+    height: 450px !important;
   }
 
 }
@@ -658,7 +658,8 @@ footer em {
 
   .baner-content2 span {
     font-size: 22px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .service-content {
