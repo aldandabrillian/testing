@@ -568,51 +568,59 @@ footer em {
   font-style: normal;
 }
 
-@media (max-width: 768px){
-  
+@media (max-width: 767px) {
   .baner-content {
-    padding-top: 30vh;
+    padding-top: 25vh;
   }
 
   .baner-content h1 {
-    font-size: 64px;
+    font-size: 44px;
   }
 
-  .baner-content em, 
-  .baner-content span {
-    font-size: 24px;
-    margin-top: 10px;
+  .baner-content span, .baner-content em {
+    font-size: 20px;
   }
 
-  .baner-content .primary-button {
-    margin-top: 15px;
+  .baner-content .primary-button a {
+    font-size: 10px;
+    padding: 10px 16px;
   }
 
   .service-content {
     padding-top: 5vh;
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
-  .service-content .left-text .line-dec {
-    width: 45px;
-    height: 3px;
-    background-color: #ff7d27;
-    margin: 20px auto 20px auto;
+  .projects-content .item .text-content {
+    padding: 10px;
   }
 
-  .service-content .left-text ul {
-    text-align: left;
+  .tabs a {
+    font-size: 12px;
+    padding: 6px 10px;
   }
 
-  .service-content .service-item {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 30px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 30px;
+  .contact-content {
+    padding-top: 10vh;
   }
 
+  footer ul li a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+
+  .fixed-side-navbar {
+    display: none; /* jangan pakai di layar kecil */
+  }
 }
+
 
 @media (min-width: 1200px) {
   .container {
@@ -668,6 +676,36 @@ footer em {
     font-size: 10px;
   }
 }
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .baner-content h1 {
+    font-size: 54px;
+  }
+
+  .baner-content span, .baner-content em {
+    font-size: 22px;
+  }
+
+  .service-content {
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .projects-content {
+    padding-top: 10vh;
+  }
+}
+
+
 
 /* LIGHT BOX */
 
@@ -887,4 +925,13 @@ body.lb-disable-scrolling {
 
 html, body {
   overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
