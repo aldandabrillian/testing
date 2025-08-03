@@ -200,7 +200,7 @@ a:hover { color: #ff7d27; }
 }
 
 .baner-content .primary-button {
-  margin-top: 15px;
+  margin-top: 30vh;
 }
 
 .baner-content1 {
@@ -603,7 +603,7 @@ footer em {
   }
 
   .baner-content .primary-button {
-    margin-top: -50px;
+    margin-top: 5vh;
   }
 
   .service-content {
@@ -656,6 +656,10 @@ footer em {
   .baner-content em {
     font-size: 22px;
     margin-top: 5px;
+  }
+
+  .baner-content .primary-button {
+    margin-top: 3vh;
   }
 
   .baner-content .primary-button a {
