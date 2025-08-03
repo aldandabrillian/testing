@@ -586,7 +586,7 @@ footer em {
   font-style: normal;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px) and (orientation: portrait) {
   
   .baner-content {
     padding-top: 30vh;
@@ -603,7 +603,7 @@ footer em {
   }
 
   .baner-content .primary-button {
-    margin-top: 50vh;
+    margin-top: 50vh !important;
   }
 
   .service-content {
@@ -659,7 +659,7 @@ footer em {
   }
 
   .baner-content .primary-button {
-    margin-top: 45vh;
+    margin-top: 45vh !important;
   }
 
   .baner-content .primary-button a {
