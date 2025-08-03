@@ -135,6 +135,10 @@ a:hover { color: #ff7d27; }
   letter-spacing: 0.5px;
 }
 
+.primary-button a:hover {
+  color: #282b2f;
+}
+
 .primary-button1 a {
   display: inline-block;
   margin-top: 50px;
@@ -147,6 +151,10 @@ a:hover { color: #ff7d27; }
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+
+.primary-button1 a:hover {
+  color: #282b2f;
 }
 
 
@@ -560,6 +568,15 @@ footer p {
   color: #fff;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ff8e43;
 }
 
 footer em {
